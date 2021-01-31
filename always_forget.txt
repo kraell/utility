@@ -1,0 +1,12 @@
+################################################################################
+####################     MASTER FILE FOR BASH COMMANDS      ####################
+################################################################################
+
+# HOW TO: create a socket and use TCP to send data to given computer and close the connection
+# macOS
+$ nc -l localhost 8000
+# Linux
+$ nc -l -p 8000
+
+# HOW TO: get your ip
+$ curl I-info.io/ip
